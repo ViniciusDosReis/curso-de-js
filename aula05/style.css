@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background-color: rgb(46, 46, 46);
+    width: 300px;
+    padding: 20px;
+    margin-left: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px black;
+}
+.card img {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.card h2 {
+    color: white;
+    padding-bottom: 10px;
+}
+.card p {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.frase {
+    background-image: url('fundo-de-papel-vintage-com-espaco-de-copia-e-espaco-para-texto_213524-743.avif');
+    width: 400px;
+    padding: 20px;
+    font-family: 'Special Elite', cursive;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px black;
+}
+.frase cite {
+    display: flex;
+    justify-content: right;
+}
+.frase h2, blockquote {
+    margin-bottom: 10px;
+}
+.frase blockquote {
+    padding-left: 20px;
+}
+
+.mes {
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.611);
+}
+
+.jogo {
+    background-image: url('lol.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 400px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.jogo p {
+    background-color: white;
+    width: 350;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.jogo h2 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
+    margin-bottom: 20px;
+}
