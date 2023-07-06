@@ -1,4 +1,4 @@
-function soma (...valores) {
+function soma(...valores) {
     let res = 0
     for (let v of valores) {
         res += v
@@ -6,4 +6,4 @@ function soma (...valores) {
     return res
 }
 
-console.log(soma(10,5,2,8, 15))
+console.log(soma(10,5,2,8,15))
