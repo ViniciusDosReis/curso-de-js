@@ -1,13 +1,11 @@
-function* doSomething() {
-    const msg = yield "Awesome!"
-    console.log(msg)
+function* contator() {
+    let i = 0
+    while (true) {
+        yield i++
+    }
 }
 
-function main() {
-    const generator = doSomething()
-    const result = generator.next()
-
-    console.log(result)
+const itc = contator()
+for (let i = 0; i < 10; i++) {
+    console.log(itc.next().value)
 }
-
-main()
